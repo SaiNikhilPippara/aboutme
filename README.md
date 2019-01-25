@@ -23,15 +23,15 @@ This repository explains about how we clone, push and pull in git .
 
 - W3Schools
 
--[Resource1](https://www.w3schools.com/)
+ -[Resource1](https://www.w3schools.com/)
 
 - Tutorialspoint
 
--[Resource2](https://www.tutorialspoint.com/)
+ -[Resource2](https://www.tutorialspoint.com/)
 
 - Quickcode 
 
--[Resource3](http://www.quickcode.co/)
+ -[Resource3](http://www.quickcode.co/)
 
 ##  Contributors
 
