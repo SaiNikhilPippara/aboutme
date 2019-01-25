@@ -23,7 +23,7 @@ This repository explains about how we clone, push and pull in git .
 
 - W3Schools
 
- -[Resource1](https://www.w3schools.com/)
+  -[Resource1](https://www.w3schools.com/)
 
 - Tutorialspoint
 
