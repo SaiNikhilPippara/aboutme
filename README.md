@@ -27,11 +27,11 @@ This repository explains about how we clone, push and pull in git .
 
 - Tutorialspoint
 
- -[Resource2](https://www.tutorialspoint.com/)
+  -[Resource2](https://www.tutorialspoint.com/)
 
 - Quickcode 
 
- -[Resource3](http://www.quickcode.co/)
+  -[Resource3](http://www.quickcode.co/)
 
 ##  Contributors
 
