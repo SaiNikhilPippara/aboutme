@@ -22,21 +22,24 @@ This repository explains about how we clone, push and pull in git .
 ## Recommended Resources
 
 - W3Schools
+
 -[Resource1](https://www.w3schools.com/)
 
 - Tutorialspoint
+
 -[Resource2](https://www.tutorialspoint.com/)
 
 - Quickcode 
+
 -[Resource3](http://www.quickcode.co/)
 
 ##  Contributors
 
-Sai Nikhil Pippara.
+ Sai Nikhil Pippara.
 
-Course - Masters in Applied Computer Science.
+ Course - Masters in Applied Computer Science.
 
-Northwest Missouri State University.
+ Northwest Missouri State University.
 
 - My Favourite Image
 
