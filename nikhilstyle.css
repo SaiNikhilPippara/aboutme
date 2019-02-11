@@ -1,0 +1,56 @@
+.body    {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    min-height: 80rem;
+    padding-top: 6rem;
+    background-image: url("https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-headings  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color:black;
+    padding-left: 5px;
+}
+
+.secondlevelheadings {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#sec_bg{
+    padding-right: 3em;
+}
+
+#sec_plans{
+    padding-right: 3em;
+}
+
+#tb{
+    background-color: blueviolet;
+    border: 1px;
+    border-color: black;
+    height: 15rem;
+    width: 30rem;
+}
+
+th, td{
+    border: 2.5px;
+    border-style: double;
+    border-color: black;
+    color: black;
+    text-align: left;
+}
+
+section {
+    margin: 0.5rem;
+    padding: 2rem;
+    height: auto;
+    background-color: red;
+    border-collapse: collapse;
+    border-style: solid;
+}
+
