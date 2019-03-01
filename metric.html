@@ -4,11 +4,11 @@
 <html lang="en">
 
 <head>
-    <title>Sai Nikhil Pippara - Circumference of a circle</title>
+    <title>Sai Nikhil Pippara  Circumference of a circle</title>
     <meta name="author" content="Sai Nikhil Pippara">
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <meta name="viewport" content="width=device-width, initial-scale=2, shrink-to-fit=no">    
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <!--All my styles are in this stylesheet -->
     <link href="nikhilstyle.css" rel="stylesheet" >
+    
 </head>
 
 <body class="body">
@@ -49,7 +50,7 @@
         <main class="container-fluid">
             <div class="row">
                 <section class="col-sm-6">
-                    <h2> Calculate circumference of a circle</h2>
+                     <h2> Calculate circumference of a circle</h2>
                     <br/><br/>
                     <form>
                             Enter the radius of your circle: <br>
@@ -57,19 +58,53 @@
                             <br/><br/><br/>
                             <input type="button" onclick="circumference()" value="Calculate circumference" style="color: blue">
                             <span style="display:inline-block; width: 5rem;"></span>
-                            <input type="Reset" value="Reset"><br>
+                           
+                              <button id="resetButton" class = "btn btn-danger" >Reset</button><br>
+          
+                              <br/>
+                              
+                              <p>Result: <span id="outputElement"></span></p>
+                              
+                      </form>
+                      
+                      <script src="./scripts/pippara.js"></script>
+
+                          
+                </section>
+                <section class="col-sm-4">
+                    <div id="ajax_demo" onclick="ajax_example()"> Click here and see what happens! </div>
+
+                </section>
+
+                <script>
+                  $("#ajax_demo").click(function(){
+                    ajax_example();
+                  });
+              </script>
+
+
+            </div>
+            
+
+        </main>
+        <section>
+        <a href="./Qunit.html">Click here</a> to see the Qunit test reults of this volume calculator.
+        </section>
+        <hr/>
+        <br/><br/><br/><br/>
         
-                            <br/><br/>
+                            <!-- <br/><br/>
                             The circumference of your circle is: <span style="display:inline-block; width: 2rem;"></span>
-                            <output id="c"></output>
+                            <output id="c"></output> -->
                             <!--Javascript function to calculate the circumference of circle -->
-                            <script>
+                            <!-- <script>
                                 function circumference() {
                                     var circumference;
                                         circumference = (document.getElementById("r").value * 3.1415* 2);
                                         document.getElementById("c").value = circumference;
                                     }
-                            </script>
+                            </script> -->
+                            
                     </form>
                 </section>
             </div>
@@ -82,10 +117,12 @@
         </footer>
         
         <!-- JQuery CSS. First Bootstrap CSS is loaded and then JQuery CSS is loaded. -->
+        <script src="./scripts/pippara.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+        
         </body>
         </html>
 
