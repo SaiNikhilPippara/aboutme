@@ -2,7 +2,7 @@ console.log('Script starts')
 
 
 
-console.log('Declaring function to calculate volume of a cube')
+console.log('Declaring function to calculate circumference of circle')
 
 function circumference( ){
     
@@ -17,7 +17,7 @@ function circumference( ){
 
 
 
-console.log('Defined volume = ' + circumference)
+console.log('Defined circumference = ' + circumference)
 
 console.log('Declaring event listeners')
     window.addEventListener('load', (event) => {
@@ -44,7 +44,7 @@ console.log('Declaring event listeners')
       localStorage.setItem('countOfClicks', ct) 
       localStorage.setItem('sideElement', inputElement)
       
-      console.log(' CalculateVolume button click handler ended ')
+      console.log(' CalculateCircumference button click handler ended ')
     })
 }
 const r = document.getElementById('resetButton')
