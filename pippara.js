@@ -67,9 +67,17 @@ function ajax_example() {
     }
   };
   
-  xhttp.open("GET", "./ajax_info.txt", true);
+  xhttp.open("GET", "./ajax.txt", true);
   xhttp.send();
 }
 
+$(document).ready(function(){
+  $(".btn1").click(function(){
+    $("p").hide();
+  });
+  $(".btn2").click(function(){
+    $("p").show();
+  });
+});
 
   console.log('SCRIPT ENDED')
