@@ -28,23 +28,23 @@ console.log('Declaring event listeners')
         console.log(`  Stored sideElement = ${localStorage.sideElement}`)
       }
       
-      console.log('  Initialization Finished ')
+      console.log('Initialization Finished ')
     })
     const b = document.getElementById('volumeButton')
     if (b){
       b.addEventListener('click', () => {
-      console.log('  Starting CalculateVolume button click handler')
+      console.log('  Starting Calculate the Circmference of circle')
       const originalCount = parseInt(localStorage.getItem('countOfClicks')) || 0
       const inputElement = document.getElementById('sideElement').value
       console.log('Side =' + inputElement)
       
       const ct = originalCount + 1
-      const result = 'The volume of cube is: ' +volumeOfCube(inputElement)
+      const result = 'The circumference of circle : ' +circumference(inputElement)
       document.getElementById('outputElement').innerHTML = result
       localStorage.setItem('countOfClicks', ct) 
       localStorage.setItem('sideElement', inputElement)
       
-      console.log(' CalculateCircumference button click handler ended ')
+      console.log(' Calculate Circumference button click handler ended ')
     })
 }
 const r = document.getElementById('resetButton')
